@@ -1,0 +1,37 @@
+{
+	"name": "proginow/router",
+	"description": "Proginow Framework Routing Library,Router for PHP. Simple, lightweight and convenient.",
+	"type": "library",
+	"license": "MIT",
+	"keywords": [ "router", "routing", "route", "http" ],
+	"require": {
+	  "php": ">=8.2.0"
+	},
+	"authors": [
+	  {
+		"name": "Proginow",
+		"email": "info@proginow.com",
+		"homepage": "https://proginow.com",
+		"role": "Developer"
+	  }
+	],
+	"repositories": [
+	  {
+		  "type": "vcs",
+		  "url": "https://github.com/proginow/router"
+	  }
+	],
+	"support": {
+		  "email": "info@proginow.com"
+	},
+	"minimum-stability": "stable",
+	"prefer-stable": true,
+	"autoload": {
+	  "psr-4": {
+		"Proginow\\Router\\": "/"
+	  },
+	  "files": [
+		"loader.php"
+	  ]
+	}
+  }
